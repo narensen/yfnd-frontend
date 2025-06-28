@@ -20,17 +20,7 @@ export default function Home() {
 
       <div className="flex mx-140 mt-10">
        <Link href="/app"><Button className="text-xl p-5 cursor-pointer">Try now</Button></Link> 
-        <Button className="mx-40 text-xl p-5 hover:underline decoration-2 underline-offset-4 transition-all duration-300">Login</Button>
-      </div>
-
-      <div className="flex flex-col text-center justify-center font-mono w-[800px] h-[300px] mt-50 mx-100">
-        <Card><h1 className="text-3xl p-6">
-          Build Instant Prototypes</h1>
-          <Image alt="Nothing"src={Main_Image}/>
-          <ol>
-            <li>Powered using GROQ and GEMINI to provide instant generated code solution</li>
-            </ol>
-            </Card>
+        <Link href="gotcha"><Button className="mx-40 text-xl p-5 hover:underline decoration-2 underline-offset-4 transition-all duration-300">Donate</Button></Link> 
       </div>
     </main>
   )
