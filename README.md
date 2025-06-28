@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![Screenshot from 2025-03-21 00-15-45](https://github.com/user-attachments/assets/703f612b-a2ff-48dc-8714-1c618181f8eb)
 
-## Getting Started
+A powerful tool to generate robust FastAPI backend code (and optional frontend) with ease. Built with Python, FastAPI, and AI-driven code generation, this project streamlines development by creating efficient, debugged, and production-ready code based on natural language prompts.
 
-First, run the development server:
+## Features
+- **Backend Generation**: Creates optimized FastAPI backend code tailored to your prompt.
+- **Full-Stack Option**: Optionally generates a single-file HTML/CSS frontend to complement the backend.
+- **AI-Powered**: Leverages advanced language models for code generation, planning, and debugging.
+- **Fast & Flexible**: Built with FastAPI for high performance and easy customization.
+- **Downloadable Output**: Saves generated code to `downloads/` for immediate use.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## How It Works
+1. Send a prompt to the `/generate` endpoint describing your desired backend functionality.
+2. The system generates a plan, writes the code, debugs it, and returns the result.
+3. Optionally request full-stack generation to get a matching frontend.
+4. Access the polished code via the API response or download it from the `downloads/` directory.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![Screenshot from 2025-03-21 00-35-56](https://github.com/user-attachments/assets/51b0fb7c-41f2-41d6-b593-192cb861d3c8)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Installation
 
-## Learn More
+### Using Git Bash
+Follow these steps to set up the project locally using Git Bash:
 
-To learn more about Next.js, take a look at the following resources:
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/narensen/your-friendly-neighborhood-developer.git
+   cd your-friendly-neighborhood-developer
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. **Set up your environment:**
+   ```bash
+   GROQ_API_KEY=your-api-key-here
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+![Screenshot from 2025-03-21 00-36-04](https://github.com/user-attachments/assets/d1543126-5421-476b-a546-88b0fe456bec)
