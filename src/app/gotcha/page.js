@@ -9,17 +9,17 @@ export default function GotchaPage() {
           DONATION DECLINED
         </h1>
         <p className="text-lg text-black mb-6 leading-relaxed">
-          Thanks, but I'm already <span className="font-bold">overfunded</span> by my caffeine addiction.
+          Thanks, but I&apos;m already <span className="font-bold">overfunded</span> by my caffeine addiction.
           <br />
           Your generosity has been noted in my non-existent database.
         </p>
         <div className="bg-black text-white p-4 mb-6 border">
           <p className="text-sm">
-             STATUS: Rich in bugs, poor in features
+            &gt; STATUS: Rich in bugs, poor in features
             <br />
-            DONATIONS_NEEDED: false
+            &gt; DONATIONS_NEEDED: false
             <br />
-             COFFEE_LEVEL: maximum
+            &gt; COFFEE_LEVEL: maximum
           </p>
         </div>
         <button className="bg-black text-white font-bold py-3 px-8 border-2 border-black hover:bg-white hover:text-black transition-all duration-200 tracking-wide">
